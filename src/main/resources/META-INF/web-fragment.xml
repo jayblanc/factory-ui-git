@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment>
+	<servlet>
+    <description></description>
+    <display-name>GITService</display-name>
+    <servlet-name>GITService</servlet-name>
+    <servlet-class>org.qualipso.factory.git.ui.gwt.impl.GITServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GITService</servlet-name>
+    <url-pattern>/GIT</url-pattern>
+  </servlet-mapping>
+</web-fragment>
